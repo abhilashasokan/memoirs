@@ -12,9 +12,6 @@ body {
   position: relative;
   background: url('../img/mountains.jpg');
   min-height: 500px;
-  img {
-    max-height: 500px;
-  }
 }
 #showcase .primary-overlay {
   background: rgba(50, 146, 166, 0.8);
@@ -37,6 +34,13 @@ body {
   }
   .card :last-of-type {
     border-bottom: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img-fluid {
+    max-width: 80%;
+    height: auto;
   }
 }
 
